@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CE Course Evaluation Form</title>
+	<link rel="stylesheet" type="text/css" href="ce-eval-form.css">
+</head>
+<body>
+	<header>
+		<a href="https://www.centennialcollege.ca/"><img src="college-logo.png" alt="Centennial College Logo"></a>
+		<h6 style="font-style: italic; color: darkblue;">Assignment 4 (Emmanuel.Abule Sn 301269945)</h6>
+
+        <h1>Continuing Education Course/Instructor Evaluation</h1>
+
+</Header>
+
+
+<main>
+	<h2>Course Information</h2>
+	<form action="submit-eval-form.php" method="POST">
+		<label for="course-name">Course Name/Code:</label>
+		<input type="text" id="course-name" name="course-name" required>
+
+		<label for="semester">Semester:</label>
+		<input type="radio" id="fall" name="semester" value="fall" required>
+		<label for="fall">Fall</label>
+		<input type="radio" id="winter" name="semester" value="winter">
+		<label for="winter">Winter</label>
+		<input type="radio" id="spring-summer" name="semester" value="spring-summer">
+		<label for="spring-summer">Spring/Summer</label>
+
+		<label for="year">Year:</label>
+		<input type="number" id="year" name="year" min="2022" required>
+
+		<label for="instructor">Instructor:</label>
+		<input type="text" id="instructor" name="instructor" required>
+
+		<h2>Instructor Evaluation</h2>
+		<label for="knowledge">1. How would you rate the instructor's knowledge of subject?</label>
+		<select id="knowledge" name="knowledge">
+			<option value="excellent">Excellent</option>
+			<option value="good">Good</option>
+			<option value="fair">Fair</option>
+			<option value="not-satisfactory">Not Satisfactory</option>
+		</select>
+
+		<label for="helpfulness">2. How would you rate the instructor's helpfulness?</label>
+		<select id="helpfulness" name="helpfulness">
+			<option value="excellent">Excellent</option>
+			<option value="good">Good</option>
+			<option value="fair">Fair</option>
+			<option value="not-satisfactory">Not Satisfactory</option>
+		</select>
+
+		<label for="courtesy">3. How would you rate the instructor's courtesy and respect for all students?</label>
+		<select id="courtesy" name="courtesy">
+			<option value="excellent">Excellent</option>
+			<option value="good">Good</option>
+			<option value="fair">Fair</option>
+			<option value="not-satisfactory">Not Satisfactory</option>
+		</select>
+
+		<label for="communication">4. How would you rate the instructor's communication skills?</label>
+		<select id="communication" name="communication">
+			<option value="excellent">Excellent</option>
+			<option value="good">Good</option>
+			<option value="fair">Fair</option>
+			<option value="not-satisfactory">Not Satisfactory</option>
+		</select>
+
+		<label for="overall-performance">5. How would you rate the instructor's overall performance?</label>
+		<select id="overall-performance" name="overall-performance">
+			<option value="excellent">Excellent</option>
+			<option value="good">Good</option
+
+
+<a href="https://www.centennialcollege.ca/" target="_blank">Thank you!</a>
+<br>
+<a href="https://www.centennialcollege.ca/" target="_blank">Thank you!</a>
+<form>
+	<label for="materials">6. How would you rate the course materials?</label>
+	<select id="materials" name="materials">
+		<option value="excellent">Excellent</option>
+		<option value="good">Good</option>
+		<option value="fair">Fair</option>
+		<option value="not-satisfactory">Not Satisfactory</option>
+	</select>
+	
+	<label for="expectations">7. How much did this course meet your expectations?</label>
+	<select id="expectations" name="expectations">
+		<option value="excellent">Excellent</option>
+		<option value="good">Good</option>
+		<option value="fair">Fair</option>
+		<option value="not-satisfactory">Not Satisfactory</option>
+	</select>
+	
+	<label for="overall">8. How would you rate this course (overall)?</label>
+	<select id="overall" name="overall">
+		<option value="excellent">Excellent</option>
+		<option value="good">Good</option>
+		<option value="fair">Fair</option>
+		<option value="not-satisfactory">Not Satisfactory</option>
+	</select>
+	
+	<label for="outline">9. Was the course outline reviewed/explained at the beginning of your course?</label>
+	<select id="outline" name="outline">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+		<option value="not-sure">Not Sure</option>
+	</select>
+	
+	<label for="recommendation">10. Would you recommend this course to a friend with the same interests?</label>
+	<select id="recommendation" name="recommendation">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+		<option value="not-sure">Not Sure</option>
+	</select>
+	
+	<label for="courtesy">11. How would you rate the instructor's courtesy and respect for all students?</label>
+	<select id="courtesy" name="courtesy">
+		<option value="excellent">Excellent</option>
+		<option value="good">Good</option>
+		<option value="fair">Fair</option>
+		<option value="not-satisfactory">Not Satisfactory</option>
+	</select>
+	
+	<label for="improvement">12. How could we improve this course?</label>
+	<textarea id="improvement" name="improvement" rows="4" cols="50"></textarea>
+	
+	<!-- Add a submit button -->
+	<input type="submit" value="Submit">
+</Form>
+</Html.>
